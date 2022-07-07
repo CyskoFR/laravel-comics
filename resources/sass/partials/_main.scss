@@ -47,6 +47,12 @@ main {
         justify-items: baseline;
         width: 15%;
 
+        a {
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+        }
+
         img, p {
             width: 90%;
         }
@@ -55,12 +61,14 @@ main {
             text-transform: uppercase;
             font-size: .875rem;
             margin: 10px 0;
+            text-align: center;
+            word-wrap: break-word;
         }
 
     }
 
     .card-img {
-        height: 200px;
+        max-height: 200px;
         background-size: cover;
     }
 

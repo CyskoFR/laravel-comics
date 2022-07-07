@@ -116,6 +116,11 @@ main {
   justify-items: baseline;
   width: 15%;
 }
+.main_up-section .card a {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
 .main_up-section .card img, .main_up-section .card p {
   width: 90%;
 }
@@ -123,9 +128,11 @@ main {
   text-transform: uppercase;
   font-size: 0.875rem;
   margin: 10px 0;
+  text-align: center;
+  word-wrap: break-word;
 }
 .main_up-section .card-img {
-  height: 200px;
+  max-height: 200px;
   background-size: cover;
 }
 .main_up-section .main-button {
