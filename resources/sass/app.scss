@@ -1,3 +1,6 @@
-body {
-    background-color: cyan;
-}
+@import 'partials/variables';
+@import 'partials/resets';
+@import 'partials/container';
+@import 'partials/typography';
+@import 'partials/header';
+@import 'partials/footer';

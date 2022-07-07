@@ -1,0 +1,40 @@
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    margin: auto;
+    max-width: var(--container-md);
+
+    .header_logo {
+        display: flex;
+        margin-left: 16px;
+        height: 70px;
+    }
+
+    .header_nav {
+        display: flex;
+        ul {
+            display: flex;
+            list-style-type: none;
+
+            .active a {
+                color: var(--primary-color);
+            }
+
+            li {
+                display: flex;
+                margin: 0.5rem;
+                
+                a {
+                    display: flex;
+                    align-self: center;
+                    text-decoration: none;
+                    color: black;
+                    font-weight: 600;
+                }
+
+            }
+        }
+    }
+    
+}
